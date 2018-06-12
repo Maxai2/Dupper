@@ -9,7 +9,7 @@ namespace Dupper
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             ProductsDBEntities db = new ProductsDBEntities();
 
             db.Database.Log = (log) =>

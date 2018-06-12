@@ -13,7 +13,7 @@ namespace Dupper
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class ProductsDBEntities : DbContext
+    public partial class ProductsDBEntities : DbContext 
     {
         public ProductsDBEntities()
             : base("name=ProductsDBEntities")
